@@ -1,0 +1,197 @@
+/*Variavel para a cor da disney*/
+:root{
+    --background-disney: rgb(8, 20, 46, 1);
+}
+
+/*Definições primárias*/
+*{
+    margin: 0;
+    padding: 0;
+    /*background-color: var(--background-disney);*/
+}
+
+/*Estilizando o fundo da página*/
+body{
+    background-color: var(--background-disney);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*Estilizando botão de entrar*/
+.btn{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    background: black;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 25px;
+    transition: 0.2s ease;
+} 
+
+/*Adicionando o Hover para quando passar o mause por cima do botão, ele mudar*/
+.btn:hover{
+    background: white;
+    color: black;
+}
+
+/*Alterando o tamanho da logo*/
+img.logo{
+    max-width: 200px;
+}
+
+/*Tudo que está dentro da <div> estará com essas difinições*/
+.hero-content{
+    margin-top: -45px;
+    padding-left: 80px;
+}
+
+/*Estilizando o texto de conteúdo*/
+h1{
+    font-weight: 700px;
+    letter-spacing: normal;
+    line-height: 1.2;
+}
+
+/*Definindo cor e tamanho do texto de conteúdo*/
+h1{
+    font-size: 44px;
+    color: #f9f9f9;
+    margin-top: 15px;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*Estlizando e criando sublinhado para link promocional*/
+.caixa{
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(100, 33, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-color: rgb(249, 249, 249);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(249, 249, 249);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(249, 249, 249);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(249, 249, 249);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(249, 249, 249);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 68px;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    padding-bottom: 20.5px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 20.5px;
+    scroll-margin-top: 75px;
+    scroll-padding-top: 75px;
+    text-align: center;
+    text-decoration-color: rgb(249, 249, 249);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    vertical-align: middle;
+    width: 486.562px;
+    margin-top: 30px;
+}
+
+/*Adicionando Hover a o sublinhado para quando passar o mause por cima, trocar de cor*/
+.caixa:hover{
+    background-color: blueviolet;
+    transition: 1.5s;
+}
+
+/*Estilizando texto promocional (dentro do sublinhado)*/
+.text{
+    color: rgb(249, 249, 249);
+    cursor: pointer;
+    display: block;
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 18;
+    letter-spacing: 3px;
+    line-height: 0px;
+    margin-top: 3px;
+    scroll-margin-top: 75px;
+    scroll-padding-top: 75px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Adicionando Hover para quando passar o mouse por cima, trocar de cor*/
+.text:hover{
+    color:blanchedalmond;
+}
+
+/*Estilizando e definindo parâmetros do link para assinatura única*/
+.alone{
+    color: rgb(249, 249, 249);
+    cursor: pointer;
+    display: inline;
+    font-family: Avenir, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    scroll-margin-top: 75px;
+    scroll-padding-top: 75px;
+    text-align: left;
+    width: auto;
+    
+}
+
+/*invertendo o texto*/
+.eu{
+    margin-left: 170px;
+}
